@@ -1,8 +1,12 @@
 {
   "author": "Calmery <contact@calmery.me> (https://calmery.me/)",
   "description": "ESLint configuration for calmery-chan",
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "typescript": "4.2.3"
+  },
   "engines": {
-    "node": ">=14.15.0 <15",
+    "node": ">=12.13.0 <13 || >=14.15.0 <15",
     "npm": ">=7.0.0 <8"
   },
   "homepage": "https://github.com/calmery-chan/eslint-config#readme",
@@ -10,7 +14,11 @@
     "eslint"
   ],
   "license": "MIT",
+  "main": "build",
   "name": "@calmery-chan/eslint-config",
   "repository": "github:calmery-chan/eslint-config",
+  "scripts": {
+    "build": "rimraf build && tsc"
+  },
   "version": "0.0.0"
 }

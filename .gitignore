@@ -189,3 +189,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+### Others
+
+build/
