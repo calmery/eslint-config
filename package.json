@@ -22,6 +22,9 @@
     "node": ">=12.13.0 <13 || >=14.15.0 <15",
     "npm": ">=7.0.0 <8"
   },
+  "files": [
+    "build"
+  ],
   "homepage": "https://github.com/calmery-chan/eslint-config#readme",
   "keywords": [
     "eslint"
