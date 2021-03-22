@@ -1,1 +1,16 @@
-{}
+{
+  "author": "Calmery <contact@calmery.me> (https://calmery.me/)",
+  "description": "ESLint configuration for calmery-chan",
+  "engines": {
+    "node": ">=14.15.0 <15",
+    "npm": ">=7.0.0 <8"
+  },
+  "homepage": "https://github.com/calmery-chan/eslint-config#readme",
+  "keywords": [
+    "eslint"
+  ],
+  "license": "MIT",
+  "name": "@calmery-chan/eslint-config",
+  "repository": "github:calmery-chan/eslint-config",
+  "version": "0.0.0"
+}
