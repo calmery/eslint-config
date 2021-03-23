@@ -5,3 +5,17 @@
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ESLint configuration for calmery-chan.
+
+## Installation
+
+```
+$ npm i -D @calmery-chan/eslint-config
+```
+
+## Usage
+
+```json
+{
+  "extends": ["@calmery-chan"]
+}
+```
