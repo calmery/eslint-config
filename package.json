@@ -32,6 +32,13 @@
   "license": "MIT",
   "main": "build",
   "name": "@calmery-chan/eslint-config",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.3"
+  },
   "repository": "github:calmery-chan/eslint-config",
   "scripts": {
     "build": "rimraf build && tsc",
