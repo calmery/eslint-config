@@ -49,5 +49,5 @@
     "lint:eslint": "eslint --ext .ts --ext .tsx --ignore-path .gitignore .",
     "lint:prettier": "prettier --check --ignore-path .gitignore ."
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
