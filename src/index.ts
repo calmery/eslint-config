@@ -12,7 +12,6 @@ export = {
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
-  root: true,
   rules: {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/order": ["error", { alphabetize: { order: "asc" } }],
