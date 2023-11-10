@@ -33,7 +33,7 @@
     "lint": "run-p --continue-on-error lint:*",
     "lint:eslint": "eslint --ext .js,.ts .",
     "lint:prettier": "prettier --check .",
-    "prepare": "lefthook install",
+    "prepare": "npm run build && lefthook install",
     "prepublishOnly": "npm run clean && npm run build"
   },
   "version": "1.0.0"
