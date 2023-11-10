@@ -1,22 +1,10 @@
 {
   "compilerOptions": {
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
     "baseUrl": "./src/",
     "declaration": true,
-    "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "outDir": "./dist/",
     "paths": { "~/*": ["./src/*"] },
-    "removeComments": true,
-    "rootDir": "./src/",
-    "strict": true
+    "rootDir": "./src/"
   },
-  "extends": "@tsconfig/node20"
+  "extends": ["@tsconfig/node20", "@calmery/tsconfig"]
 }
