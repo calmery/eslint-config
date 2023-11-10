@@ -1,0 +1,15 @@
+{
+  "pre-commit": {
+    "commands": {
+      "eslint": {
+        "glob": "*.{js,ts}",
+        "run": "npx eslint {staged_files}"
+      },
+      "prettier": {
+        "glob": "*.{js,json,md,ts,yaml}",
+        "run": "npx prettier --check {staged_files}"
+      }
+    },
+    "parallel": true
+  }
+}
