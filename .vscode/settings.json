@@ -1,0 +1,8 @@
+{
+  "editor.renderControlCharacters": true,
+  "files.exclude": { "**/node_modules/": true },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "typescript.tsdk": "./node_modules/typescript/lib/"
+}
