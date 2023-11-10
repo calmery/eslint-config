@@ -1,6 +1,0 @@
-# Summary
-
-- References:
-- Resolves:
-
-# Changes
