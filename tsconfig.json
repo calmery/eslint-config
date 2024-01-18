@@ -4,7 +4,7 @@
     "declaration": true,
     "outDir": "./dist/",
     "paths": { "~/*": ["./src/*"] },
-    "rootDir": "./src/"
+    "rootDir": "./src/",
   },
-  "extends": ["@tsconfig/node20", "@calmery/tsconfig"]
+  "extends": ["@tsconfig/node20", "@calmery/tsconfig"],
 }
